@@ -1,0 +1,25 @@
+
+package com.mycompany.beecrowd1002;
+import java.util.Scanner;
+import java.util.Locale;
+public class Main {
+  public static void main (String[] args){
+     Scanner sc = new Scanner (System.in).useLocale(Locale.US);
+     
+     double base = sc.nextDouble();
+     double altura = sc.nextDouble();
+     
+     double area = base * altura ;
+     double  perimetro = (base*2.0) + (altura*2.0);
+     double diagonal = Math.sqrt(base*base + altura*altura);
+     
+     System.out.printf("ÁREA = %.4f%n", area);
+     System.out.printf("PERIMETRO = %.4f%n", perimetro);
+     System.out.printf("DIAGONAL = %.4f%n", diagonal);
+     
+     
+    sc.close();
+  }
+  
+  
+ }

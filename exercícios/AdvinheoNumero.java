@@ -18,9 +18,9 @@ public class AdvinheoNumero {
         System.out.println("BEM VINDO AO JOGO DO NÚMERO SECRETO!");
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-");
         System.out.println("ESTOU PENSANDO EM UM NÚMERO ENTRE 1 E 100!");
-        System.out.println("VOCÊ TERÁ 8 TENTATIVAS PARA ADIVINHAR O NÚMERO!");
-        System.out.println("DICA: USE A PESQUISA BINÁRIA!");
-        System.out.println("ESTÁ PRONTO? ENTÃO VAMOS JOGAR!");
+        System.out.println("VOCÊ TER�? 8 TENTATIVAS PARA ADIVINHAR O NÚMERO!");
+        System.out.println("DICA: USE A PESQUISA BIN�?RIA!");
+        System.out.println("EST�? PRONTO? ENTÃO VAMOS JOGAR!");
         System.out.println("-----=-----=-----=-----=-----=-----=-----=-----=");
         
        while(true){
@@ -39,8 +39,8 @@ public class AdvinheoNumero {
                break;
            }
            if (tentativas == 8){
-               System.out.println("VOCÊ NÃO CONSEGUIU ADVINHAR =(");
-               System.out.println("O NÚMERO ERA " + numeroSecreto + " MELHOR SORTE NA PROXÍMA VEZ!");
+               System.out.println("VOCÊ NÃO CONSEGUIU ADIVINHAR =(");
+               System.out.println("O NÚMERO ERA " + numeroSecreto + " MELHOR SORTE NA PROX�?MA VEZ!");
                break;
            }
            

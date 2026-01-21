@@ -1,0 +1,24 @@
+package entities;
+
+public class Rectangle {
+	
+	public double width;
+	public double height;
+	
+	public double area(){
+		return width * height;
+		
+	}
+	
+	public double perimeter() {
+		return width + height + width + height;
+		
+	}
+	
+	public double diagonal() {
+		double p = Math.pow(width,2) + Math.pow(height,2);
+		return Math.sqrt(p);
+		
+	}
+
+}
